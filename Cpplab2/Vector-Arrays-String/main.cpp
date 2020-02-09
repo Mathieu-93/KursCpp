@@ -14,7 +14,7 @@ int main()
   const char* cStyleStr2 = "Salut!";
   cout << "sizeof(cStyleStr2) = " << sizeof(cStyleStr2) << endl;
   // explain why is sizeof(cStyleStr2) != sizeof(cStyleStr1)
-
+  //because pointer has always the same size
   char cStyleStr3[7] = {'S', 'a', 'l', 'u', 't', '!', '\0'};
   char cStyleStr4[] = {'S', 'a', 'l', 'u', 't', '!'};
   cout << "cStyleStr3 = " << cStyleStr3
