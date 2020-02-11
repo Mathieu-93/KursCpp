@@ -37,10 +37,20 @@ int main()
   vector<int> v1 {1,2,3};
   v1.emplace_back(4);
   cout << "v1[3] = " << v1[3] << ", v1.length() = " << v1.size() << endl;
+
   v1.push_back(5);
   cout << "v1[4] = " << v1[4] << ", v1.length() = " << v1.size() << endl;
+  cout << "v1 constains: ";
+  for (auto& x: v1)
+      cout<<' '<<x;
+  cout<<'\n';
+
   v1.pop_back();
-  cout << "v1[3] = " << v1[4] << ", v1.length() = " << v1.size() << endl;
+  cout << "v1[4] = " << v1[4] << ", v1.length() = " << v1.size() << endl;
+  cout << "v1 constains: ";
+  for (auto& x: v1)
+      cout<<' '<<x;
+  cout<<'\n';
 
   return 0;
 }

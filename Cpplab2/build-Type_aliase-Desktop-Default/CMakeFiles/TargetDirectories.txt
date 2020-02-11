@@ -1,0 +1,3 @@
+/home/mateusz/Dokumenty/KursCpp/Cpplab2/build-Type_aliase-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/mateusz/Dokumenty/KursCpp/Cpplab2/build-Type_aliase-Desktop-Default/CMakeFiles/Type_aliase.dir
+/home/mateusz/Dokumenty/KursCpp/Cpplab2/build-Type_aliase-Desktop-Default/CMakeFiles/edit_cache.dir
