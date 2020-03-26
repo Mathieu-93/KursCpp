@@ -4,7 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    rational.cpp
+    rational.cpp \
+    main.cpp
 
 HEADERS += \
     rational.h

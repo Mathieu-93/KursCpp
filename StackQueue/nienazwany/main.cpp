@@ -66,8 +66,6 @@ int capacity;
 
 struct Node{
     int stu_no;
-//    char stu_name[50];
-//    int p;
     Node *next;
 };
 Node *top;
